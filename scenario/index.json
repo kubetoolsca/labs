@@ -1,0 +1,21 @@
+{
+  "title": "KRS Setup",
+  "description": "Scans your cluster to identify deployed pods, services, and deployments. Analyzes the tools used, and provides rankings based on their popularity.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ], "assets": {
+    "host01": [
+      {"file": "setup.sh", "target": "/root", "chmod": "+x"}
+    ]
+  }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
